@@ -1,8 +1,8 @@
 /* 2K resolution screens */
 @media only screen and (min-width: 2560px) {
     header {
-        margin-top: 8rem !important;
-        margin-bottom: 10rem !important;
+        margin-top: 3rem !important;
+        margin-bottom: 4rem !important;
     }
 
     .logo {
@@ -28,9 +28,18 @@
     line-height: 7rem;
 }
 
+.high-res .mt-5{
+    margin-top: 5.5rem !important;
+}
+
+.home-section .mt-md-5{
+    margin-top:7rem !important;
+}
+
 .header-para{
     font-size: 2.5rem !important;
     font-weight: 600 !important;
+    margin-bottom: 12rem !important;
   }
 
   .hero-video{
@@ -105,9 +114,6 @@
     }
 
     .btn-about-us{
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
         text-align: center !important;
         margin-top: 5rem !important;
         font-size: 2rem !important;
@@ -150,6 +156,7 @@
         padding: 0 8rem !important;
     }
     .helped-margin{
+        margin-top: 5rem !important;
         margin-bottom: 5rem !important;
     }
 
@@ -439,11 +446,26 @@
 
     .image_margin{
         margin-top: 2.5rem !important;
+        padding: 2.8rem !important;
         transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275),
               opacity 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
       }
 
       .image_margin:hover {
         transform: scale(1.2);
+      }
+
+      .featured-work-videos-padding{
+        padding: 0rem 1rem 2.5rem 1rem !important;
+      }
+
+      .featured-work-videos-padding:nth-child(){
+        padding: 2rem 1rem 2.5rem 1rem !important;
+      }
+
+      .hero-featured-video{
+        width: 100%;
+        height: 590px;
+        border-radius: 1rem;
       }
 }
